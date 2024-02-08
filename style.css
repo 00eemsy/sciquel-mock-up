@@ -1,0 +1,110 @@
+body {
+    margin-left: 15vw;
+    margin-right: 15vw;
+
+    font-family: sans-serif;
+}
+
+#banner-left-side {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: 175px;
+
+    z-index: 1;
+}
+
+#banner-text-box {
+    background-image: linear-gradient(#1f728d, #64a59e);
+
+    padding: 20px;
+    padding-top: 5px;
+
+    border-radius: 5px;
+
+    color: white;
+
+    max-width: 500px;
+}
+
+#banner-img {
+    max-width: 75%;
+
+    position: relative;
+    left: 17.5vw;
+
+    border-radius: 5px;
+}
+
+.tag {
+    color: white;
+
+    border-radius: 5px;
+
+    padding: 5px;
+    max-width: fit-content;
+}
+
+.biochem {
+    background-color: #d18161;
+}
+
+.geology {
+    background-color: #354e41;
+}
+
+.author-and-date {
+    color: #878787;
+    font-family: serif;
+}
+
+.inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#list {
+    align-self: center;
+    display: inline-flex;
+    gap: 25px;
+
+    margin-top: 5%;
+}
+
+.article {
+    background-color: #f8f8ff;
+    border: 2px solid #ededf2;
+    border-radius: 5px;
+
+    padding: 20px;
+    padding-top: 5px;
+}
+
+.description {
+    margin-top: 0px;
+}
+
+.article-img {
+    max-width: 100%;
+}
+
+.right-aligned {
+    right: 0;
+}
+
+#recents {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    gap: 5px;
+
+    color: #4f0b05;
+}
+
+#recents p {
+    text-decoration: underline;
+}
