@@ -28,11 +28,14 @@ body {
     max-width: 500px;
 }
 
+#banner-img-container {
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
 #banner-img {
     max-width: 75%;
-
-    position: relative;
-    left: 17.5vw;
 
     border-radius: 5px;
 }
